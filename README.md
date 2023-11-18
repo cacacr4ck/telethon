@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/iamuput/Uputt-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/cacacr4ck/telethon"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@amneseey0u](https://t.me/Uputtsupport) untuk info Update bot dan Gabung Group [@Uputtsupport](https://t.me/Uputtsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
+Follow Channel [@storybangzul](https://t.me/storybangzul) untuk info Update bot dan Gabung Group [@mwgsupport](https://t.me/minezulll) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Uputt-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -100,6 +100,7 @@ Follow Channel [@amneseey0u](https://t.me/Uputtsupport) untuk info Update bot da
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
 -  [sip-Userbot](https://github.com/sip-Userbot/Nande-Telethon): Nande-Telethon
 -  [IamUput](https://github.com/iamuput/Uputt-Userbot): Uputt-Userbot
+-  [cacacr4ck](https://github.com/cacacr4ck/telethon): ZF-Telethon
 
 ## © Credits
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
@@ -108,6 +109,7 @@ Follow Channel [@amneseey0u](https://t.me/Uputtsupport) untuk info Update bot da
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 -  [sip-Userbot](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
 -  [IamUput](https://github.com/iamuput) for [Uputt-Userbot](https://github.com/iamuput/Uputt-Userbot)
+-  [cacacr4ck](https://github.com/cacacr4ck/telethon) for [ZF-Telethon](https://github.com/cacacr4ck)
 ## License
 Licensed under [Raphielscape Public License](https://github.com/iamuput/Uputt-Userbot/blob/Uputt-Userbot/LICENSE) - Version 1.d, February 2020
 
