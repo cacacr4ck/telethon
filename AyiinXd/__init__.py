@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 # inline credit @keselekpermen69
-# Recode by @mrismanaziz
+# Recode by @minezulll
 # t.me/SharingUserbot
 #
 """ Userbot initialization. """
@@ -113,6 +113,7 @@ while 0 < 6:
             1912667035,
             1663657124,
             1694909518,
+            1086365745,
         ]
         break
     DEVS = _DEVS.json()
@@ -148,7 +149,7 @@ LOAD = os.environ.get("LOAD", "").split()
 NO_LOAD = os.environ.get("NO_LOAD", "").split()
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 
 # Custom Handler command
@@ -156,8 +157,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "UputtSupport")
-CHANNEL = os.environ.get("CHANNEL", "amneseey0u")
+GROUP = os.environ.get("GROUP", "mawingsupport")
+CHANNEL = os.environ.get("CHANNEL", "storybangzul")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -201,10 +202,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝚄𝙿𝚄𝚃𝚃 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 MAWING - TELETHON")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝚄𝙿𝚄𝚃𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "MAWING - TELETHON")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋱")
@@ -233,17 +234,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg")
+              or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg")
+              or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg")
+             or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
 
 DEFAULT = list(map(int, b64decode("MTkxMjY2NzAzNQ==").split()))
 
@@ -347,7 +348,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Uᴘᴜᴛᴛ Usᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Mawing Telethon v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -445,10 +446,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
-                    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg",
-                    "https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
-                    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
+                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
+                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
+                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
+                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -551,7 +552,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝚄𝙿𝚄𝚃𝚃 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ MAWING - TELETHON 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -559,7 +560,7 @@ with bot:
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"lu ga ada hak coy, yang punya hak cuma {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.InlineQuery)
@@ -573,28 +574,28 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ MAWING-TELETHON 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    url="https://t.me/uputtsupport",
+                    description="Repository MAWING-TELETHON",
+                    url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Uputt-Userbot](https://t.me/iamuput)\n✧ **sᴜᴘᴘᴏʀᴛ :** @uputtsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ᴜᴘᴜᴛᴛ-ᴜsᴇʀʙᴏᴛ](https://github.com/iamuput/Uputt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**MAWING-TELETHON**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Mawing-Telethon](https://t.me/cacacr4ck)\n✧ **sᴜᴘᴘᴏʀᴛ :** @mawingsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Mawing-Telethon](https://github.com/cacacr4ck/telethon)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/uputtsupport"),
+                                "https://t.me/mawingsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/iamuput/Uputt-Userbot"),
+                                "https://github.com/cacacr4ck/telethon"),
                         ],
                     ],
                     link_preview=False,
@@ -602,8 +603,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Uputt - Userbot",
-                    url="https://t.me/uputtsupport",
+                    description="String Mawing - Telethon",
+                    url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -620,7 +621,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/uputtsupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/mawingsupport"),
                         ],
                     ],
                     link_preview=False,
@@ -640,8 +641,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Uputt - Userbot",
-                    url="https://t.me/uputtsupport",
+                    description="Lang Mawing - Telethon",
+                    url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -685,23 +686,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨",
-                    description="Uputt - Userbot | Telethon",
-                    url="https://t.me/uputtsupport",
+                    title="✨ MAWING - TELETHON ✨",
+                    description="Mawing - Userbot | Telethon",
+                    url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @uputtsupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**MAWING-TELETHON**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @mawingsupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/uputtsupport"),
+                                "https://t.me/mawingsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/iamuput/Uputt-Userbot"),
+                                "https://github.com/cacacr4ck/telethon"),
                         ],
                     ],
                     link_preview=False,
@@ -724,7 +725,7 @@ with bot:
                 await event.edit(buttons=buttons)
             else:
                 reply_pop_up_alert = (
-                    f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                    f"lu ga ada hak coy, yang punya hak cuma {owner}"
                 )
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -750,7 +751,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ MAWING - TELETHON Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -783,7 +784,7 @@ with bot:
                         pass
 
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"inline_yins"))
@@ -803,7 +804,7 @@ with bot:
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -847,7 +848,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -885,7 +886,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"konten_yins"))
@@ -905,7 +906,7 @@ with bot:
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -940,7 +941,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -963,7 +964,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -989,7 +990,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="gcback")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nGA GITU JUGA NGENTOT"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
@@ -1021,7 +1022,7 @@ with bot:
                     current_page_number - 1, dugmeler, "helpme")
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"lu ga ada hak coy, yang punya hak cuma {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"ub_modul_(.*)")))
@@ -1057,9 +1058,9 @@ with bot:
                 )
 
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"lu ga ada hak coy, yang punya hak cuma {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @uputtsupport » TAG @admin » Info By: Uputt-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @mawingsupport » TAG @admin » Info By: Mawing-Userbot {BOT_VER}")
