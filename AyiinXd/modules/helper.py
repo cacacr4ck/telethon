@@ -22,13 +22,13 @@ CMD_HELP.update(
     {
         "helper": f"**Plugin : **`helper`\
         \n\n  »  **Perintah :** `{cmd}ihelp`\
-        \n  »  **Kegunaan : **Bantuan Untuk Uputt-Userbot.\
+        \n  »  **Kegunaan : **Bantuan Untuk Mawing-Userbot.\
         \n\n  »  **Perintah :** `{cmd}listvar`\
         \n  »  **Kegunaan : **Melihat Daftar Vars.\
         \n\n  »  **Perintah :** `{cmd}repo`\
-        \n  »  **Kegunaan : **Melihat Repository Uputt-Userbot.\
+        \n  »  **Kegunaan : **Melihat Repository Mawing-Userbot.\
         \n\n  »  **Perintah :** `{cmd}string`\
-        \n  »  **Kegunaan : **Link untuk mengambil String Uputt-Userbot.\
+        \n  »  **Kegunaan : **Link untuk mengambil String Mawing-Userbot.\
     "
     }
 )
