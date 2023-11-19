@@ -51,22 +51,21 @@ async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     Ayiin = await edit_or_reply(ping, "**✩**")
-    await Ayiin.edit("**㋱㋱**")
-    await Ayiin.edit("**㋱㋱㋱**")
-    await Ayiin.edit("**㋱㋱㋱㋱**")
-    await Ayiin.edit("**㋱㋱㋱㋱㋱**")
+    await Ayiin.edit("**HIHI**")
+    await Ayiin.edit("**HIHI**")
+    await Ayiin.edit("**DUAR**")
+    await Ayiin.edit("**MEMEK**")
     await Ayiin.edit("haha ngentot nungguin ya")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await Ayiin.edit("🗿")
-    await Ayiin.edit("SI ANJING MASIH NUNGGUIN")
     sleep(3)
     await Ayiin.edit(
         f"㋱ MAWING-USERBOT ㋱\n\n"
         f"㋱ TOP-SPEED : `%skm/h`\n"
         f"㋱ UPTIME : `{uptime}` \n"
-        f"㋱ 𝙾𝚆𝙽𝙴𝚁 : [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"㋱ OWNER : [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
