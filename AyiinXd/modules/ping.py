@@ -55,16 +55,18 @@ async def _(ping):
     await Ayiin.edit("**㋱㋱㋱**")
     await Ayiin.edit("**㋱㋱㋱㋱**")
     await Ayiin.edit("**㋱㋱㋱㋱㋱**")
+    await Ayiin.edit("haha ngentot nungguin ya")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("🥵")
+    await Ayiin.edit("🗿")
+    await Ayiin.edit("SI ANJING MASIH NUNGGUIN")
     sleep(3)
     await Ayiin.edit(
-        f"**㋱ 𝚄𝙿𝚄𝚃𝚃-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋱**\n\n"
-        f"㋱ **𝙷𝙴𝙽𝙲𝙴𝚄𝚃 :** `%sms`\n"
-        f"㋱ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
-        f"㋱ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"㋱ MAWING-USERBOT ㋱\n\n"
+        f"㋱ TOP-SPEED : `%skm/h`\n"
+        f"㋱ UPTIME : `{uptime}` \n"
+        f"㋱ 𝙾𝚆𝙽𝙴𝚁 : [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -76,7 +78,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**PONG!! 🍭**\n**Pinger** : %skm/jam\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
