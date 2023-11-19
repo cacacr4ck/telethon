@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Uᴘᴜᴛᴛ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Uputt-Userbot\n\n» Own🐣 : @Uputraa - @Iamuput\n» Support: @amneseey0u",
+                title="Mawing-Userbot LOGS",
+                about="» Group log Created by: Mawing-Userbot\n\n» Own🐣 : @minezulll - @storybangzul\n» Support: @mawingsupport",
                 megagroup=True,
             ),
         )
@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/a918a9482ff5ae77af564.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -135,8 +135,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg",
-              "AyiinXd/resources/IMG-20220912-WA0047.jpg",
+              "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
+              "AyiinXd/resources/55111188_p0.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -145,7 +145,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"Uputt{(str(who.id))[6:]}{str(ran)}bot"
+        username = f"mawing{(str(who.id))[6:]}{str(ran)}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -174,7 +174,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @amneseey0u ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @minezulll ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -218,7 +218,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @amneseey0u @Uputraa @Iamuput ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @storybangzul @minezulll ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
