@@ -188,8 +188,8 @@ async def rejoiner(event):
     try:
         await Xd.group_call.reconnect()
     except NotConnectedError:
-        return await event.eor("Anda belum terhubung ke obrolan suara!")
-    await event.eor("`Bergabung kembali dengan obrolan suara ini.`")
+        return await event.eor("Lu Belum Naik OS anjir!")
+    await event.eor("`Ikutan ah.`")
 
 
 @ayiin_cmd(pattern="volume$")
