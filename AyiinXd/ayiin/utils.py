@@ -106,7 +106,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"Uputt{(str(who.id))[5:]}bot"
+        username = f"Zull{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
