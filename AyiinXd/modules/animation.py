@@ -1035,7 +1035,7 @@ async def _(event):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Target Berhasil Tersantet Online 🥴`")
+    await typew.edit("`Target Berhasil Tersantet Online, Tunggu besok dia akan menghilang dari peradaban`")
 
 
 CMD_HELP.update(
