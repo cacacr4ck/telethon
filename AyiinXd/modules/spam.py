@@ -120,11 +120,11 @@ async def nyespam(event):
             event, get_string("spam_9").format(cmd)
         )
     if counter > 50:
-        sleeptimet = 0.5
-        sleeptimem = 1
+        sleeptimet = 0
+        sleeptimem = 0
     else:
-        sleeptimet = 0.1
-        sleeptimem = 0.3
+        sleeptimet = 0
+        sleeptimem = 0
     await event.delete()
     addgvar("spamwork", True)
     await spam_function(event, spammer, xnxx, sleeptimem, sleeptimet)
