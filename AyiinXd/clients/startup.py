@@ -23,8 +23,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nUputt-Userbot v{}, Copyright © 2021-2022 Uputt• <https://github.com/iamuput>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nUput-UserBot v{}, Copyright © 2021-2022 Uputt• <https://github.com/iamuput>"
+EOL = "EOL\nMawing-Userbot v{}, Copyright © 2019-2023 Mawing• <https://github.com/cacacr4ck>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nMawing-UserBot v{}, Copyright © 2019-2023 Mawing• <https://github.com/cacacr4ck>"
 
 
 async def ayiin_client(client):
