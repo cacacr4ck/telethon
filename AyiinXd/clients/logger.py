@@ -18,11 +18,11 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ Uᴘᴜᴛᴛ - Usᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ Mᴀᴡɪɴɢ - Usᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ Uᴘᴜᴛᴛ Vᴇʀsɪᴏɴ - {} •[{}]•
-├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
-├▹ @Iamuput-Userbot
+├▹ Mᴀᴡɪɴɢ Usᴇʀʙᴏᴛ - {} •[{}]•
+├▹ Mᴀᴡɪɴɢ Vᴇʀsɪᴏɴ - {}
+├▹ @ownedbyrain-Userbot
 ├▹ Kᴇᴛɪᴋ .alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
 ╰╼┅━━━━━╍━━━━━┅╾
 """
