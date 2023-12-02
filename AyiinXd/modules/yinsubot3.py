@@ -21,7 +21,7 @@ from Stringyins import get_string
 # ========================×========================
 
 
-@ayiin_cmd(pattern=r"uputt(?: |$)(.*)")
+@ayiin_cmd(pattern=r"zull(?: |$)(.*)")
 async def _(y):
     ayiin = await eor(y, get_string("yibot_77"))
     sleep(3)
@@ -63,9 +63,9 @@ async def _(s):
 
 CMD_HELP.update(
     {
-        "yinsubot3": f"**Plugin : **`Uputt-Userbot`\
-        \n\n  »  **Perintah :** `{cmd}uputt`\
-        \n  »  **Kegunaan : **Perkenalan diri Uputt\
+        "yinsubot3": f"**Plugin : **`Mawing-Userbot`\
+        \n\n  »  **Perintah :** `{cmd}zull`\
+        \n  »  **Kegunaan : **Perkenalan diri Mawing\
         \n\n  »  **Perintah :** `{cmd}sayang`\
         \n  »  **Kegunaan : **Bucin\
         \n\n  »  **Perintah :** `{cmd}semangat`\
