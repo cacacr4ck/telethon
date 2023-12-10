@@ -194,17 +194,17 @@ async def _(pong):
 
 @ayiin_cmd(pattern="store$")
 async def _(store):
-    start = datetime.now()
+    datetime.now()
     xx = await edit_or_reply(store, "https://t.me/smmprojects")
 
 @ayiin_cmd(pattern="kiboy$")
 async def _(kiboy):
-    start = datetime.now()
+    datetime.now()
     xx = await edit_or_reply(kiboy, "https://t.me/KiboyyDesign/388")
 
 @ayiin_cmd(pattern="nokos$")
 async def _(nokos):
-    start = datetime.now()
+    datetime.now()
     xx = await edit_or_reply(nokos, "https://t.me/smmprojects/9")
 
 
