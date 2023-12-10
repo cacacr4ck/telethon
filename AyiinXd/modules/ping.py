@@ -192,6 +192,21 @@ async def _(pong):
     sleep(3)
     await xx.edit("**𝙿𝙸𝙽𝙶!**\n`%sms`" % (duration))
 
+@ayiin_cmd(pattern="store$")
+async def _(store):
+    start = datetime.now()
+    xx = await edit_or_reply(store, "https://t.me/smmprojects")
+
+@ayiin_cmd(pattern="kiboy$")
+async def _(kiboy):
+    start = datetime.now()
+    xx = await edit_or_reply(kiboy, "https://t.me/KiboyyDesign/388")
+
+@ayiin_cmd(pattern="nokos$")
+async def _(nokos):
+    start = datetime.now()
+    xx = await edit_or_reply(nokos, "https://t.me/smmprojects/9")
+
 
 CMD_HELP.update(
     {
