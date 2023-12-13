@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Mawing-Userbot LOGS",
-                about="» Group log Created by: Mawing-Userbot\n\n» Own🐣 : @minezulll - @storybangzul\n» Support: @mawingsupport",
+                title="Zull-Userbot LOGS",
+                about="» Group log Created by: Zull-Userbot\n\n» Own🐣 : @ownedbyrain - @storybangzul\n» Support: @mawingsupport",
                 megagroup=True,
             ),
         )
@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/c394b9d3247403031589d.png", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -135,8 +135,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
-              "AyiinXd/resources/55111188_p0.jpg",
+              "https://telegra.ph/file/c394b9d3247403031589d.png",
+              "https://telegra.ph/file/c394b9d3247403031589d.png",
           ]
     )
     await bot.send_message(bf, username)
@@ -174,7 +174,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @minezulll ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @ownedbyrain ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -218,7 +218,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @storybangzul @minezulll ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @storybangzul @ownedbyrain ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
