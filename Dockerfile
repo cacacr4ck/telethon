@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Uputt-Userbot https://github.com/cacacr4ck/telethon /home/uputtuserbot/ \
+RUN git clone -b zull https://github.com/cacacr4ck/telethon /home/uputtuserbot/ \
     && chmod 777 /home/uputtuserbot \
     && mkdir /home/uputtuserbot/bin/
 
