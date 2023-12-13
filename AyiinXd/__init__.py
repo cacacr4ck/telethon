@@ -202,10 +202,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 MAWING - TELETHON")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 ZULL - TELETHON")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "MAWING - TELETHON")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "ZULL - TELETHON")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋱")
@@ -348,7 +348,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Mawing Telethon v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ZULL Telethon v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -552,7 +552,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ INLINE MENU ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -574,20 +574,20 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ INLINE MENU ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository MAWING-TELETHON",
+                    description="Repository ZULL-TELETHON",
                     url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**MAWING-TELETHON**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Mawing-Telethon](https://t.me/cacacr4ck)\n✧ **sᴜᴘᴘᴏʀᴛ :** @mawingsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Mawing-Telethon](https://github.com/cacacr4ck/telethon)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ZULL-TELETHON**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ZULL-Telethon](https://t.me/cacacr4ck)\n✧ **sᴜᴘᴘᴏʀᴛ :** @mawingsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ZULL-Telethon](https://github.com/cacacr4ck/telethon)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -603,7 +603,7 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Mawing - Telethon",
+                    description="String ZULL - Telethon",
                     url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         logoyins,
@@ -641,7 +641,7 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Mawing - Telethon",
+                    description="Lang ZULL - Telethon",
                     url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         logoyins,
@@ -686,8 +686,8 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ MAWING - TELETHON ✨",
-                    description="Mawing - Userbot | Telethon",
+                    title="✨ ZULL - TELETHON ✨",
+                    description="ZULL - Userbot | Telethon",
                     url="https://t.me/mawingsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
@@ -751,7 +751,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ INLINE MENU ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ Mᴀᴡɪɴɢ Tᴇʟᴇᴛʜᴏɴ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1063,4 +1063,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @mawingsupport » TAG @admin » Info By: Mawing-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @mawingsupport » TAG @admin » Info By: ZULL-Userbot {BOT_VER}")
