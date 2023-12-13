@@ -234,17 +234,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
+              or "https://telegra.ph/file/c394b9d3247403031589d.png")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
+              or "https://telegra.ph/file/c394b9d3247403031589d.png")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg")
+             or "https://telegra.ph/file/c394b9d3247403031589d.png")
 
 DEFAULT = list(map(int, b64decode("MTkxMjY2NzAzNQ==").split()))
 
@@ -446,10 +446,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
-                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
-                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
-                    "https://telegra.ph/file/2dc67d913ecc251fbd2fb.jpg",
+                    "https://telegra.ph/file/c394b9d3247403031589d.png",
+                    "https://telegra.ph/file/c394b9d3247403031589d.png",
+                    "https://telegra.ph/file/c394b9d3247403031589d.png",
+                    "https://telegra.ph/file/c394b9d3247403031589d.png",
                 ]
         )
         cmd = CMD_HANDLER
