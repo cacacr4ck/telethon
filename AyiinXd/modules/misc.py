@@ -276,7 +276,7 @@ CMD_HELP.update(
     {
         "sleep": f"**Plugin : **`sleep`\
         \n\n  »  **Perintah :** `{cmd}sleep`\
-        \n  »  **Kegunaan : **Biarkan Mawing-Userbot tidur selama beberapa detik \
+        \n  »  **Kegunaan : **Biarkan ZULL - Userbot tidur selama beberapa detik \
     "
     }
 )
@@ -284,7 +284,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": f"**Plugin : **`Repository Mawing-Userbot`\
+        "repo": f"**Plugin : **`Repository ZULL - Userbot`\
         \n\n  »  **Perintah :** `{cmd}repo`\
         \n  »  **Kegunaan : **Menampilan link Repository Uputt-Userbot\
         \n\n  »  **Perintah :** `{cmd}string`\
@@ -306,7 +306,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": f"**Plugin : **`Restart Mawing-Userbot`\
+        "restart": f"**Plugin : **`Restart ZULL - Userbot`\
         \n\n  »  **Perintah :** `{cmd}restart`\
         \n  »  **Kegunaan : **Untuk Merestart userbot.\
     "
