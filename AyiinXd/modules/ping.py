@@ -207,6 +207,12 @@ async def _(nokos):
     datetime.now()
     xx = await edit_or_reply(nokos, "https://t.me/smmprojects/9")
 
+@ayiin_cmd(pattern="buy$")
+async def _(buy):
+    datetime.now()
+    xx = await edit_or_reply(nokos, "DANA : 083821362840 A.n BAYU RIZKI ZULFIKRI")
+
+
 
 CMD_HELP.update(
     {
